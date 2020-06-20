@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -9,19 +10,24 @@ body {
   font-family: "Didact Gothic", sans-serif;
   font-size: 12pt;
   font-weight: 200;
-  color: #FFF;
+  color: black;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
 
-p, ol, ul {
+p,
+ol,
+ul {
   margin-top: 0;
 }
 
-ol, ul {
+ol,
+ul {
   padding: 0;
   list-style: none;
 }
@@ -102,7 +108,7 @@ ul.contact li span {
 }
 
 ul.contact li a {
-  color: #FFF;
+  color: black;
 }
 
 ul.contact li a:before {
@@ -113,7 +119,7 @@ ul.contact li a:before {
   line-height: 40px;
   border-radius: 20px;
   text-align: center;
-  color: #FFFFFF;
+  color: black;
 }
 
 ul.contact li a.icon-twitter:before {
@@ -221,7 +227,7 @@ ul.contact li a.icon-rss:before {
 .title {
   margin-bottom: 3em;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .black {
@@ -237,13 +243,21 @@ ul.contact li a.icon-rss:before {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.aboutus {
+  font-size: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Cormorant Garamond', serif;
+}
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 #wrapper {
   position: relative;
-  padding: 5em 0em 7em 0em;
-  background: #FFF;
+  padding: 3em 0em 3em 0em;
+  background: white;
 }
 
 /*********************************************************************************/
@@ -251,7 +265,6 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 #header-wrapper {
   position: relative;
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
   background-size: cover;
   height: 100%;
 }
@@ -277,7 +290,7 @@ ul.contact li a.icon-rss:before {
 
 #logo a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /*********************************************************************************/
@@ -299,19 +312,20 @@ ul.contact li a.icon-rss:before {
   text-align: center;
 }
 
-#menu li a, #menu li span {
+#menu li a,
+#menu li span {
   padding: 1em 1.5em;
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 #menu .active a {
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 6px;
-  color: white;
+  color: black;
 }
 
 /*********************************************************************************/
@@ -320,6 +334,8 @@ ul.contact li a.icon-rss:before {
 #banner {
   padding-top: 10em;
   text-align: center;
+  height: 75%;
+  background: #111111 url(images/header-bg.jpg) no-repeat center;
 }
 
 #banner .title h2 {
@@ -337,6 +353,14 @@ ul.contact li a.icon-rss:before {
   border-radius: 6px;
   font-weight: 700;
   font-size: 1em;
+}
+
+
+.structImg {
+  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  height:50vh;
+  width:100%;
+
 }
 
 /*********************************************************************************/
@@ -363,13 +387,10 @@ ul.contact li a.icon-rss:before {
 #copyright p {
   text-align: center;
   font-size: 1em;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#copyright a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 
 /*********************************************************************************/
 /* Welcome                                                                       */
@@ -377,19 +398,19 @@ ul.contact li a.icon-rss:before {
 #welcome {
   position: relative;
   padding: 7em 0em 7em 0em;
-  background: #111111 url(images/header-bg.png) no-repeat center;
   background-size: cover;
   text-align: center;
+  background-color:black;
 }
 
 #welcome .containered {
-  width: 800px;
+  width: 80%;
   padding: 0px 100px;
   color: rgba(255, 255, 255, 0.8);
 }
 
 #welcome a {
-  color: white;
+  color: black;
 }
 
 /*********************************************************************************/
@@ -397,6 +418,26 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 .col-sm {
   text-align: center;
+}
+
+.smaller {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head {
+  font-family: 'EB Garamond', serif;
+  font-size: 30px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#struct {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

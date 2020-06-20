@@ -471,6 +471,7 @@ ul.contact li a.icon-rss:before {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #struct {
@@ -536,6 +537,29 @@ textarea {
   font-size: 35px;
   color: white;
   opacity: 0.95;
+}
+
+@media only screen and (max-device-width : 1000px) {
+  /* Styles */
+  #menu{
+    position:relative;
+    top:20px;
+    left:16%;
+  }
+  #menu ul {
+    display: block;
+  }
+  #logo {
+    position:relative;
+    top:-5%;
+    text-align:center;
+  }
+  #banner {
+    height:60%;
+  }
+  .smaller {
+    font-size:12px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

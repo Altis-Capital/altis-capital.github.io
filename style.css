@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -539,27 +540,83 @@ textarea {
   opacity: 0.95;
 }
 
-@media only screen and (max-device-width : 1000px) {
+@media (max-width : 1000px) {
+
   /* Styles */
-  #menu{
-    position:relative;
-    top:20px;
-    left:16%;
+  #menu {
+    position: relative;
+    top: 20px;
+    left: 16%;
   }
+
   #menu ul {
     display: block;
   }
+
   #logo {
-    position:relative;
-    top:-5%;
-    text-align:center;
+    position: relative;
+    top: -5%;
+    text-align: center;
   }
+
   #banner {
-    height:60%;
+    height: 60%;
   }
+
   .smaller {
-    font-size:12px;
+    font-size: 12px;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+@media (max-width : 768px) {
+
+  /* Styles */
+  #menu {
+    left: 7.5%;
+  }
+
+  .team {
+    width: 80%;
+  }
+
+  .row {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .smaller {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width : 450px) {
+
+  #menu li a,
+  #menu li span {
+    font-size: 0.5em;
+  }
+
+  .structSmaller {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  #theteam {
+    padding-top: 0em;
+  }
+
+  .head {
+    font-size: 30px;
+  }
+
+  .contactUs, #copyright {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form {
+    max-width: 300px;
+  }
+}

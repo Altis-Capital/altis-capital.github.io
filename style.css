@@ -610,7 +610,7 @@ textarea {
   .smaller {
     margin-bottom:15%;
   }
-  
+
   #theteam {
     padding-top: 0em;
   }
@@ -633,5 +633,10 @@ textarea {
 
   form {
     max-width: 300px;
+  }
+}
+@media (max-width : 450px) {
+  #header-wrapper {
+    height:80%;
   }
 }

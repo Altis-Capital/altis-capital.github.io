@@ -343,7 +343,8 @@ ul.contact li a.icon-rss:before {
   padding-top: 10em;
   text-align: center;
   height: 75%;
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: #111111 url(images/new-york-city-skyline.jpg) no-repeat center;
+  background-size: cover;
 }
 
 #banner .title h2 {
@@ -370,7 +371,7 @@ ul.contact li a.icon-rss:before {
 }
 
 #eqR {
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: url(images/header-bg.jpg) no-repeat center;
 }
 
 #qfA {
@@ -382,7 +383,7 @@ ul.contact li a.icon-rss:before {
 }
 
 #victoria {
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: #111111 url(images/victoria.jpg) center/cover no-repeat;
 }
 
 #lydia {
@@ -399,6 +400,10 @@ ul.contact li a.icon-rss:before {
 
 #erin {
   background: #111111 url(images/header-bg.jpg) no-repeat center;
+}
+
+#wes {
+  background: #111111 url(images/wes.jpg) center/cover no-repeat;
 }
 
 

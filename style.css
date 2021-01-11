@@ -273,13 +273,13 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 #header-wrapper {
   position: relative;
-  background-size: cover;
-  height: 100%;
+  /* background-size: cover; */
+  height: 60%;
 }
 
 #header {
   position: relative;
-  padding: 5em 0em;
+  padding: 3em 0em;
 }
 
 /*********************************************************************************/
@@ -287,7 +287,7 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 #logo {
   position: absolute;
-  top: 3.6em;
+  top: 1.5em;
   left: 0;
 }
 
@@ -306,7 +306,7 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 #menu {
   position: absolute;
-  top: 4.5em;
+  top: 1.5em;
   right: 0;
 }
 
@@ -492,7 +492,7 @@ ul.contact li a.icon-rss:before {
 #struct {
   text-align: center;
   font-size: 50px;
-  font-family: SF UI Text;
+
  font-style: normal;
  font-weight: bold;
   margin-bottom: 5%;
@@ -535,10 +535,12 @@ textarea {
   width: 100%;
   background: #6381A8;
   border-radius: 5px;
+  
   border: 0;
   cursor: pointer;
   color: white;
-  font-size: 24px;
+  border-color: white;
+  font-size: 18px;
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.3s;
@@ -547,7 +549,7 @@ textarea {
 }
 
 [type="submit"]:hover {
-  background: #CC4949;
+  background: #6381A8;
 }
 
 .contactUs {
@@ -571,7 +573,7 @@ textarea {
 
   #logo {
     position: relative;
-    top: -5%;
+    top: 1.5em;
     text-align: center;
   }
 
@@ -653,6 +655,6 @@ textarea {
 }
 @media (max-width : 450px) {
   #header-wrapper {
-    height:80%;
+    height:60%;
   }
 }

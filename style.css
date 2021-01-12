@@ -279,7 +279,7 @@ ul.contact li a.icon-rss:before {
 
 #header {
   position: relative;
-  padding: 3em 0em;
+  padding: 5em 0em;
 }
 
 /*********************************************************************************/
@@ -287,7 +287,7 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 #logo {
   position: absolute;
-  top: 1.5em;
+  top: 0;
   left: 0;
 }
 
@@ -301,12 +301,16 @@ ul.contact li a.icon-rss:before {
   color: black;
 }
 
+#logo img {
+  height: 11em;
+}
+
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
 #menu {
   position: absolute;
-  top: 1.5em;
+  top: 4em;
   right: 0;
 }
 
@@ -345,7 +349,7 @@ ul.contact li a.icon-rss:before {
   max-width: 100% !important;
   /* max-height: 30% !important; */
   text-align: center;
-  height: 75%;
+  height: 100%;
   background: #111111 url(images/header-bg-2.png) no-repeat center;
   background-size: cover !important;
   background-position: center;
@@ -377,11 +381,11 @@ ul.contact li a.icon-rss:before {
 }
 
 #eqR {
-  background: url(images/header-bg.jpg) no-repeat center;
+  background: url(images/equity-research.jpg) no-repeat center;
 }
 
 #qfA {
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: #111111 url(images/stock-algorithms-main_resize_md.jpg) no-repeat center;
 }
 
 #james {
@@ -479,6 +483,7 @@ ul.contact li a.icon-rss:before {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .head {
@@ -487,6 +492,7 @@ ul.contact li a.icon-rss:before {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 #struct {
@@ -573,7 +579,7 @@ textarea {
 
   #logo {
     position: relative;
-    top: 1.5em;
+    top: 3em;
     text-align: center;
   }
 

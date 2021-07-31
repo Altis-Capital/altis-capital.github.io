@@ -389,7 +389,7 @@ ul.contact li a.icon-rss:before {
 }
 
 #james {
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: #111111 url(images/james.jpg) center/cover no-repeat;
 }
 
 #victoria {
@@ -397,7 +397,7 @@ ul.contact li a.icon-rss:before {
 }
 
 #lydia {
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: #111111 url(images/lydia.png) center/cover no-repeat;
 }
 
 #hong {
